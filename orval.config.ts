@@ -8,7 +8,7 @@ export default defineConfig({
       client: 'fetch',
       httpClient: 'fetch',
       clean: true,
-      baseUrl: 'https://nlw-connect-nodejs-5rya.onrender.com/docs/json',
+      baseUrl: 'https://nlw-connect-nodejs-5rya.onrender.com',
       override: {
         fetch: {
           includeHttpResponseReturnType: false,

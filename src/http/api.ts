@@ -54,7 +54,7 @@ export type GetSubscriberRankingPosition200 = {
  * @summary Subscribe to event
  */
 export const getSubscribeToEventUrl = () => {
-  return 'https://nlw-connect-nodejs-5rya.onrender.com/docs/json/subscriptions'
+  return 'https://nlw-connect-nodejs-5rya.onrender.com/subscriptions'
 }
 
 export const subscribeToEvent = async (
@@ -78,7 +78,7 @@ export const subscribeToEvent = async (
  * @summary Access invite link
  */
 export const getAccessInviteLinkUrl = (subscriberId: string) => {
-  return `https://nlw-connect-nodejs-5rya.onrender.com/docs/json/invites/${subscriberId}`
+  return `https://nlw-connect-nodejs-5rya.onrender.com/invites/${subscriberId}`
 }
 
 export const accessInviteLink = async (
@@ -100,7 +100,7 @@ export const accessInviteLink = async (
  * @summary Get ranking
  */
 export const getGetRankingUrl = () => {
-  return 'https://nlw-connect-nodejs-5rya.onrender.com/docs/json/ranking'
+  return 'https://nlw-connect-nodejs-5rya.onrender.com/ranking'
 }
 
 export const getRanking = async (
@@ -121,7 +121,7 @@ export const getRanking = async (
  * @summary Get subscriber ranking invites count
  */
 export const getGetSubscriberInviteCountUrl = (subscriberId: string) => {
-  return `https://nlw-connect-nodejs-5rya.onrender.com/docs/json/subscribers/${subscriberId}/ranking/count`
+  return `https://nlw-connect-nodejs-5rya.onrender.com/subscribers/${subscriberId}/ranking/count`
 }
 
 export const getSubscriberInviteCount = async (
@@ -143,7 +143,7 @@ export const getSubscriberInviteCount = async (
  * @summary Get subscriber ranking invites clicks count
  */
 export const getGetSubscriberInviteClicksUrl = (subscriberId: string) => {
-  return `https://nlw-connect-nodejs-5rya.onrender.com/docs/json/subscribers/${subscriberId}/ranking/clicks`
+  return `https://nlw-connect-nodejs-5rya.onrender.com/subscribers/${subscriberId}/ranking/clicks`
 }
 
 export const getSubscriberInviteClicks = async (
@@ -165,7 +165,7 @@ export const getSubscriberInviteClicks = async (
  * @summary Get subscriber ranking position
  */
 export const getGetSubscriberRankingPositionUrl = (subscriberId: string) => {
-  return `https://nlw-connect-nodejs-5rya.onrender.com/docs/json/subscribers/${subscriberId}/ranking/position`
+  return `https://nlw-connect-nodejs-5rya.onrender.com/subscribers/${subscriberId}/ranking/position`
 }
 
 export const getSubscriberRankingPosition = async (
