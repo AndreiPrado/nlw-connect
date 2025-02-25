@@ -87,7 +87,7 @@ export function SubscriptionForm() {
 
       <Button type="submit">
         Confirmar
-        <ArrowRight />
+        <ArrowRight className="transition-all duration-300 group-hover:animate-pulse" />
       </Button>
     </form>
   )
