@@ -2,13 +2,13 @@ import { defineConfig } from 'orval'
 
 export default defineConfig({
   api: {
-    input: 'http://localhost:3333/docs/json',
+    input: 'https://nlw-connect-nodejs-5rya.onrender.com/docs/json',
     output: {
       target: './src/http/api.ts',
       client: 'fetch',
       httpClient: 'fetch',
       clean: true,
-      baseUrl: 'http://localhost:3333',
+      baseUrl: 'https://nlw-connect-nodejs-5rya.onrender.com/docs/json',
       override: {
         fetch: {
           includeHttpResponseReturnType: false,
